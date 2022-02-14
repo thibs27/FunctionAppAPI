@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace FunctionAppAPI
+namespace FunctionApp1
 {
     [TestClass]
     public class UnitTestLogging

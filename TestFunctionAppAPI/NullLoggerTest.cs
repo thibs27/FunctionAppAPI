@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Logging.Abstractions;
 using System;
 
-namespace FunctionAppAPI
+namespace FunctionApp1
 {
     public class NullLoggerTest : ILogger
     {
