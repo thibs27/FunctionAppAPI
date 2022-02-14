@@ -11,7 +11,7 @@ namespace FunctionApp1
             NullLoggerTest log = new NullLoggerTest();
             StringHelper.LogMessage(log, "test message");
 
-            Assert.AreEqual("test message", log.logInfo);
+            Assert.AreEqual("test message1", log.logInfo);
         }
     }
 }
