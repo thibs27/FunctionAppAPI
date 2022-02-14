@@ -2,8 +2,12 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <AzureFunctionsVersion>v4</AzureFunctionsVersion>
+    <ApplicationInsightsResourceId>/subscriptions/bf1f73b7-1e03-4ce7-8c07-de54be9a5dec/resourceGroups/azdevrg01/providers/microsoft.insights/components/azdevai01</ApplicationInsightsResourceId>
+    <UserSecretsId>228c59ee-8ac4-4b48-871a-c394479bc2cc</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.WorkerService" Version="2.15.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
   </ItemGroup>
   <ItemGroup>
